@@ -1,6 +1,6 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
-import logo from '../imgs/exodus-logo.png'
+import logo from '../imgs/exodus-blk.png';
 
 const SideBar = () => {
 
@@ -24,10 +24,6 @@ const SideBar = () => {
       </NavLink>
       <NavLink to="/db-actions" className="link" exact>
         <p className="plink">Actions</p>
-      </NavLink>
-      <h3>Team Exodus</h3>
-      <NavLink to="/teamexodus" className="link" exact>
-        <p className="plink">Meet the Team</p>
       </NavLink>
     </div>
   )

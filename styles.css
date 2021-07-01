@@ -1,42 +1,53 @@
 * {
-  margin:0;
-  padding:0;
-  font-family: 'Quicksand', sans-serif;
-  color: #ffffffbd
-
-
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+  color: #ffffffbd;
 }
 
-html, body {
+a {
+  text-decoration: none;
+}
+
+html,
+body {
   margin: 0px;
   padding: 0px;
   height: 100%;
   height: 100%;
   overflow: auto;
-  background-color: linear-gradient(135deg,#8d93ab,#393b44);
-  background-image: linear-gradient(135deg, rgb(141, 147, 171), rgb(57, 59, 68));
-
-
+  background-color: linear-gradient(135deg, #8d93ab, #393b44);
+  background-image: linear-gradient(
+    135deg,
+    rgb(141, 147, 171),
+    rgb(57, 59, 68)
+  );
 }
 
-
 .App {
-  display:flex;
+  display: flex;
   justify-content: space-between;
   width: 100%;
   height: 100%;
 }
 
 .SideBar {
-  width:15%;
+  padding-top: 1.25%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  /* changed position to fixed, revert if necessary */
+  width: 15%;
   height: 100%;
-  display:flex;
+  display: flex;
   flex-direction: column;
+  margin-left: 2%;
+  /* align-items: center; */
   /* border:1px solid white; */
 }
 
 .pcomp {
-  padding:10px;
+  padding: 5px 10px 0px 0px;
   /* border:1px solid rgb(91, 236, 247); */
   /* border-radius: 10px; */
   /* background-color: rgb(235, 235, 235); */
@@ -44,89 +55,169 @@ html, body {
   /* box-shadow:5px 5px 10px #222725; */
 }
 
-.component {
-  width: 80%;
-  height: 100%;
-}
-
 .link {
-  padding-left:10px;
-  text-decoration:none;
-  color:white;
-  background-color: linear-gradient(135deg,#8d93ab,#393b44);;
+  padding-left: 10px;
+  text-decoration: none;
+  color: white;
+  background-color: linear-gradient(135deg, #8d93ab, #393b44);
   /* border-top:1px solid white; */
 }
 
 .logo {
-  width: 100%;
+  width: 130px;
+  height: auto;
+  margin-left: 10%;
+  margin-bottom: 15%;
 }
-.logoDeno{
-  max-width:100%;
-  max-height:100%;
+
+.logo2 {
+  width: 400px;
+  height: auto;
+  margin-left: 60%;
 }
+
+.logoDeno {
+  width: 60%;
+  height: auto;
+  margin-left: 5%;
+  margin-bottom: 15%;
+  margin-top: -15%;
+  display: block;
+}
+
 .link:hover {
-  color:rgba(255, 255, 255, 0.123);
+  color: rgba(255, 255, 255, 0.123);
   background-color: rgba(255, 255, 255, 0.1233);
 }
 
 h3 {
-  color:rgb(233, 231, 235);
-  padding-left:20px;
-  margin-bottom:10px;
-  margin-top:10px;
-  text-shadow: #FFFFFF;
-  font-weight:60rem;
-
+  color: rgb(233, 231, 235);
+  padding-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-shadow: #ffffff;
+  font-weight: 600;
 }
 
 h1 {
-  color:#FFFFFF;
-  margin-bottom:20px;
-  margin-top:20px;
-  font-size: 56px;
+  color: #ffffff;
+  margin-bottom: 2%;
+  margin-top: 4%;
+  font-size: 46px;
 }
 
-h1, .plink {
-  color:rgb(218, 221, 221);
+.plink {
+  color: rgb(218, 221, 221);
   padding: 10px;
-
+  font-weight: 400;
 }
 
-.image, .image img {
-  width:600px;
-  height:600px;
-  margin:auto;
+.image,
+.image img {
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  box-shadow: 5px 5px 10px #222725;
 }
 
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-.columnTeam {
-  float: left;
+.rowTeam {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 22px;
+}
+
+.teamPic {
   width: 33.33%;
-  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-/* Clear floats after image containers */
-.rowTeam::after {
-  content: "";
-  clear: both;
-  display: table;
+.columnTeam {
+  width: 50%;
 }
 
 .mid {
-  display:flex;
+  display: flex;
   flex-direction: column;
+  width: 80%;
+  margin-left: 20%;
+  margin-right: 2%;
 }
 
 .topNav {
-  display:flex;
+  display: flex;
   justify-content: space-between;
+  align-items: flex-end;
+  position: absolute;
+  width: 75%;
+  background-color: #6f727e;
+  font-weight: 500;
 }
 
-li{
+li a {
   list-style: none;
-  padding:10px;
+  padding: 13px 10px 10px 10px;
+}
+
+li {
+  list-style: none;
+  padding: 13px 10px 10px 10px;
 }
 
 ul {
-  display:flex;
+  display: flex;
+}
+
+.team {
+  font-size: 18px;
+}
+
+.component {
+  margin-top: 2%;
+}
+
+li:hover {
+  background-color: rgba(207, 207, 207, 0.349);
+}
+
+.leftNav:hover {
+  background-color: rgba(207, 207, 207, 0.349);
+}
+
+.fwd,
+.back {
+  width: 800px;
+  height: auto;
+  margin-left: 17%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  box-shadow: 5px 5px 10px #222725;
+}
+
+h2 {
+  margin-bottom: 2%;
+  margin-top: 4%;
+}
+
+.extract {
+  width: 300px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 35%;
+  box-shadow: 5px 5px 10px #222725;
+}
+
+.ghub,
+.linked {
+  width: 50px;
+  height: auto;
+  padding: 5px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
