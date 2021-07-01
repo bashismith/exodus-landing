@@ -1,5 +1,5 @@
 import React from "react";
-import setupPic from "../imgs/Setup.png"
+import setupPic from "../imgs/Setups.png"
 
 const Init = () => {
 

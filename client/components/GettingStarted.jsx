@@ -1,7 +1,7 @@
 //<b></b>
 
 import React from "react";
-import setupPic from "../imgs/Setup.png";
+import setupPic from "../imgs/Setups.png";
 import migration1 from "../imgs/migration1.png";
 import migration2 from "../imgs/migration2.png";
 

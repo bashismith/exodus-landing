@@ -5,8 +5,8 @@ import Fwd from "../components/Fwd.jsx"
 import Full from "../components/Full.jsx"
 import Back from "../components/Back.jsx"
 import Log from "../components/Log.jsx"
-import fwd from '../imgs/fwd.png'
-import logo from '../imgs/back2.png'
+import fwd from '../imgs/fwd2.png'
+import logo from '../imgs/back21.png'
 
 const Actions = () => {
 

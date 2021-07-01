@@ -1,6 +1,6 @@
 import React from "react";
 import DbInit from "../components/DbInit.jsx"
-import extractApply from "../imgs/extractandApply.png"
+import extractApply from "../imgs/extractandApply2.png"
 
 const Initialization = () => {
 

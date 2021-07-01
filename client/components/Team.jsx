@@ -1,5 +1,5 @@
 import React from "react";
-import setupPic from "../imgs/Setup.png"
+import setupPic from "../imgs/Setups.png"
 import github from "../imgs/github.png"
 import linked from "../imgs/linkedin.png"
 import miguelPic from '../imgs/miguel.jpg'
