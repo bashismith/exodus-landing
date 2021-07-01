@@ -10,6 +10,7 @@ import dbActions from './containers/dbActions.jsx'
 import Team from "./components/Team.jsx";
 import Github from "./components/Github.jsx";
 import TopNav from "./containers/TopNav.jsx"
+import GettingStarted from "./components/GettingStarted.jsx"
 
  const App = () => {
   return (
@@ -21,6 +22,7 @@ import TopNav from "./containers/TopNav.jsx"
         <Switch>
             <Route component={Introduction} exact path="/"/>
             <Route component={InitCreate} exact path="/init-create"/>
+            <Route component={GettingStarted} exact path="/getting-started"/>
             <Route component={Actions} exact path="/actions"/>
             <Route component={Initialization} exact path="/db-init"/>
             <Route component={dbActions} exact path="/db-actions"/>
