@@ -15,9 +15,6 @@ const SideBar = () => {
       <NavLink to="/getting-started" className="link" exact>
         <p className="plink">Getting Started</p>
       </NavLink>
-      <NavLink to="/init-create" className="link" exact>
-        <p className="plink">Init and Create</p>
-      </NavLink>
       <NavLink to="/actions" className="link" exact>
         <p className="plink">Actions</p>
       </NavLink>

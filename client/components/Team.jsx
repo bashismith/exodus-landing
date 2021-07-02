@@ -2,9 +2,9 @@ import React from "react";
 import setupPic from "../imgs/Setups.png"
 import github from "../imgs/github.png"
 import linked from "../imgs/linkedin.png"
-import miguelPic from '../imgs/miguel.jpg'
+import miguelPic from '../imgs/miguel.png'
 import nickPic from '../imgs/Capture.png'
-import chadPic from '../imgs/chad.jpg'
+import chadPic from '../imgs/chad.png'
 
 
 const Team = () => {

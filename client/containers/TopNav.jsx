@@ -13,7 +13,7 @@ const TopNav = () => {
       <div className="rightNav">
         <ul>
           <li><a href="https://github.com/oslabs-beta/exodus.ts" target="_blank">GitHub</a></li>
-          <li><a href="https://deno.land/x/exodus@0.1.7" target="_blank">DenoLand</a></li>
+          <li><a href="https://deno.land/x/exodus@0.1.8" target="_blank">DenoLand</a></li>
         </ul>
       </div>
     </div>
